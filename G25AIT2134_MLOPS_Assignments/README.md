@@ -18,19 +18,20 @@ python inference.py
 
 ## Training Platform
 
-Training was done on Kaggle Notebook using GPU acceleration and Kaggle Secrets for `WANDB_API_KEY` and `HF_TOKEN`.
+Training was done on Kaggle Notebook using GPU T4 x2 acceleration and Kaggle Secrets for `WANDB_API_KEY` and `HF_TOKEN`.
 
 - Kaggle Notebook: https://www.kaggle.com/code/shyamg25ait2134/notebook828cbfd1f6
 
 ## Results
 
-| Metric | Score |
-|---|---:|
-| Accuracy | 0.59 |
-| F1 Score | 0.585 |
-| Eval Loss | 2.297|
+| Metric    | Score |
+|-----------|------:|
+| Accuracy  | 0.59  |
+| F1 Score  | 0.585 |
+| Eval Loss | 2.297 |
 
 ## Links
 
+- GitHub Repository: https://github.com/g25ait2134-tech/MLOpsAssignment2
 - Hugging Face model: https://huggingface.co/G25AIT2134/distilbert-goodreads-genres
 - W&B dashboard: https://wandb.ai/g25ait2134-iitj/mlops-assignment2/runs/5s2gs1m0?nw=nwuserg25ait2134
