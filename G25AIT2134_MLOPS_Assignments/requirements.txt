@@ -1,0 +1,6 @@
+transformers==5.9.0
+torch==2.10.0+cu128
+datasets==4.8.3
+wandb==0.25.0
+huggingface_hub==1.15.0
+scikit-learn==1.6.1
