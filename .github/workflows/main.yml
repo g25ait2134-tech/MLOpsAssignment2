@@ -30,7 +30,7 @@ jobs:
       env:
         KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
         KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-      run: kaggle kernels pull shyamg25ait2134/notebook828cbfd1f6 -p .
+      run: kaggle kernels pull shyamg25ait2134/notebook828cbfd1f6 -p G25AIT2134_MLOPS_Assignments
 
     - name: Commit and push changes
       run: |
